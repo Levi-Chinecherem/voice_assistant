@@ -3,6 +3,8 @@
 Dami's Visual Assistant is a Python-based intelligent assistant that accepts voice input, converts it to text, sends the text to OpenAI's GPT-3 API for processing, and then converts the AI response back to voice output.
 This Python script demonstrates how to use SpeechRecognition for Speech-to-Text and the OpenAI GPT-3 API for Text-to-Speech. It enables you to convert spoken input from your microphone into text using the SpeechRecognition library and then generates a response using the OpenAI GPT-3 API, converting the text response back to speech using gTTS (Google Text-to-Speech).
 
+![sample image](https://github.com/Levi-Chinecherem/voice_assistant/blob/master/sample.PNG)
+
 ## Getting Started
 
 ### Prerequisites
@@ -27,7 +29,7 @@ pip install openai speechrecognition gtts pyaudio
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/Levi-Chinecherem/voice_assistant.git
 cd your_repository
 ```
 
@@ -84,14 +86,8 @@ python assistant.py
 - The OpenAI API key must be kept secure and not shared publicly.
 - The GPT-3 API usage may have limitations depending on your account type and usage policies. Be mindful of your usage to avoid exceeding any limitations.
 
-### License
 
-This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
 
-### Acknowledgments
-
-- This project uses OpenAI's GPT-3 API, which is powered by OpenAI.
-- Special thanks to the creators of the `speech_recognition`, `gtts`, and `pyaudio` libraries for enabling speech recognition and text-to-speech functionality.
 
 
 
@@ -114,7 +110,7 @@ Before proceeding, ensure you have the following:
 1. Clone the GitHub repository (optional):
 
 ```bash
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/Levi-Chinecherem/voice_assistant.git
 cd your_repository
 ```
 
